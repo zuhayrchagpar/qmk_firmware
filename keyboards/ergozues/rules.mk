@@ -11,10 +11,10 @@ MCU = atmega32u4
 #   ATmega328P   USBasp
 
 # LEFT
-# BOOTLOADER = atmel-dfu
+BOOTLOADER = atmel-dfu
 
 # RIGHT
-BOOTLOADER = caterina
+# BOOTLOADER = caterina
 
 # Build Options
 #   change yes to no to disable
@@ -36,6 +36,6 @@ AUDIO_ENABLE = no           # Audio output
 FAUXCLICKY_ENABLE = no      # Use buzzer to emulate clicky switches
 HD44780_ENABLE = no         # Enable support for HD44780 based LCDs
 
-SPLIT_TRANSPORT = yes       # Enable split keyboard
+SPLIT_KEYBOARD = yes       # Enable split keyboard
 
 # TAP_DANCE_ENABLE = yes
