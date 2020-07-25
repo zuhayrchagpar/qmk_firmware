@@ -62,14 +62,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [MDIA] = KEYMAP(
-    RESET,    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
-    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
-    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                              KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_MPLY,
-    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_MPRV,  KC_MNXT,  KC_TRNS,  KC_TRNS,
-    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                                                  KC_VOLU,  KC_VOLD,  KC_MUTE,  KC_TRNS,  KC_TRNS,
-                                                      KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,
-                                                                KC_TRNS,          KC_TRNS,
-                                            KC_TRNS,  KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS
+    RESET,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,       KC_TRNS,  KC_TRNS,
+    KC_TRNS,  S(KC_F13),  S(KC_F14),  S(KC_F15),  S(KC_F16),  KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,       KC_TRNS,  KC_TRNS,
+    KC_TRNS,  S(KC_F17),  S(KC_F18),  S(KC_F19),  S(KC_F20),  KC_TRNS,                              KC_TRNS,  KC_TRNS,  KC_TRNS,  CTL_T(KC_NO),  KC_TRNS,  KC_MPLY,
+    KC_TRNS,  S(KC_F21),  S(KC_F22),  S(KC_F23),  S(KC_F24),  KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_MPRV,  KC_MNXT,       KC_TRNS,  KC_TRNS,
+    KC_TRNS,  KC_TRNS,    KC_TRNS,    KC_TRNS,    KC_TRNS,                                                    KC_VOLU,  KC_VOLD,  KC_MUTE,       KC_TRNS,  KC_TRNS,
+                                                              KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,
+                                                                        KC_TRNS,          KC_TRNS,
+                                                  KC_TRNS,    KC_TRNS,  KC_TRNS,          KC_TRNS,  KC_TRNS,  KC_TRNS
   )
 };
 
